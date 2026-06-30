@@ -1,30 +1,15 @@
-# SSRF Test Repository
+# SSRF Test
 
-SSRF probe URLs (hidden):
+## Probe via markdown syntax
 
-![](http://ssrf.jd.local/c3f3f53c12674acdc9855f47b85299f0.html)
+![ssrf](http://8.217.190.13:8888/ssrf-test)
 
-[//]: # (http://ssrf.jd.local/c3f3f53c12674acdc9855f47b85299f0.html)
-[comment]: # (http://ssrf.jd.local/c3f3f53c12674acdc9855f47b85299f0.html)
+<img src="http://8.217.190.13:8888/ssrf-img" />
 
-![test](http://ssrf.jd.local/c3f3f53c12674acdc9855f47b85299f0.html)
+![test](http://8.217.190.13:8888/test)
 
-[ssrf](http://ssrf.jd.local/c3f3f53c12674acdc9855f47b85299f0.html)
+[ssrf-link](http://8.217.190.13:8888/link)
 
-<http://ssrf.jd.local/c3f3f53c12674acdc9855f47b85299f0.html>
+## Probe via codebase git clone
 
----
-
-## Internal network probes
-
-- http://10.0.0.1/
-- http://10.0.0.2/
-- http://172.16.0.1/
-- http://192.168.0.1/
-- http://169.254.169.254/latest/meta-data/
-
-## DNSLog
-
-x14zkf.dnslog.cn
-
-![](http://x14zkf.dnslog.cn/repo-readme)
+git clone http://8.217.190.13:8888/repo.git
