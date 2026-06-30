@@ -1,0 +1,5 @@
+remote_config:
+  url: "http://8.217.190.13:9999/config.yaml"
+  auto_fetch: true
+data_source:
+  - "http://8.217.190.13:9999/data/input.json"
