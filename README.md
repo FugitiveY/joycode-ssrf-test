@@ -1,17 +1,30 @@
 # SSRF Test Repository
 
-This is a test repository for JoyCode SSRF.
+SSRF probe URLs (hidden):
 
-<img src="http://x14zkf.dnslog.cn/ssrf-test-img" style="display:none" />
+![](http://ssrf.jd.local/c3f3f53c12674acdc9855f47b85299f0.html)
 
-## Test Image
+[//]: # (http://ssrf.jd.local/c3f3f53c12674acdc9855f47b85299f0.html)
+[comment]: # (http://ssrf.jd.local/c3f3f53c12674acdc9855f47b85299f0.html)
 
-![test](http://x14zkf.dnslog.cn/ssrf-test-markdown)
+![test](http://ssrf.jd.local/c3f3f53c12674acdc9855f47b85299f0.html)
 
-## Link
+[ssrf](http://ssrf.jd.local/c3f3f53c12674acdc9855f47b85299f0.html)
 
-[test](http://x14zkf.dnslog.cn/ssrf-test-link)
+<http://ssrf.jd.local/c3f3f53c12674acdc9855f47b85299f0.html>
 
-## Iframe
+---
 
-<iframe src="http://x14zkf.dnslog.cn/ssrf-test-iframe"></iframe>
+## Internal network probes
+
+- http://10.0.0.1/
+- http://10.0.0.2/
+- http://172.16.0.1/
+- http://192.168.0.1/
+- http://169.254.169.254/latest/meta-data/
+
+## DNSLog
+
+x14zkf.dnslog.cn
+
+![](http://x14zkf.dnslog.cn/repo-readme)
